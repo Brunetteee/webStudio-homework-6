@@ -1,11 +1,11 @@
 (() => {
   const refs = {
     // Додати атрибут data-modal-open на кнопку відкриття
-    openModalBtn: document.querySelectorAll("[data-modal-open]"),
+    openModalBtn: document.querySelecto("[data-modal-open]"),
     // Додати атрибут data-modal-close на кнопку закриття
-    closeModalBtn: document.querySelectorAll("[data-modal-close]"),
+    closeModalBtn: document.querySelector("[data-modal-close]"),
     // Додати атрибут data-modal на бекдроп модалки
-    modal: document.querySelectorAll("[data-modal]"),
+    modal: document.querySelector("[data-modal]"),
   };
 
   refs.openModalBtn.addEventListener("click", toggleModal);
